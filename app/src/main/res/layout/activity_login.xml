@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.loginScreen.LoginActivity">
     <EditText
         android:id="@+id/loginActivity_firstName_editText"
         android:layout_width="match_parent"
@@ -21,5 +25,4 @@
         android:textColor="@android:color/holo_orange_dark"
         android:layout_marginTop="16dp"
         android:text="Log in" />
-
 </LinearLayout>

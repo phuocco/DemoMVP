@@ -8,8 +8,8 @@ public interface LoginActivityMVP {
         String getLastName();
 
         void showInputError();
-        void setFirstName();
-        void setLastName();
+        void setFirstName(String firstName);
+        void setLastName(String lastName);
         void showUserSavedMessage();
     }
     interface Presenter {
